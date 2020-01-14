@@ -1,0 +1,42 @@
+{
+  "name": "champee",
+  "version": "1.0.0",
+  "description": "Champee, official WordPress theme that made for blog",
+  "main": "index.php",
+  "scripts": {
+    "dev": "gulp",
+    "vendor": "gulp build-lib-css",
+    "test": "eslint js/main.js"
+  },
+  "repository": "https://github.com/jir4yu/champee.git",
+  "author": "Jirayu Limjinda <jir4yu.l@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "flexibility": "^2.0.1",
+    "gulp": "=3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^1.8.9",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-livereload": "^4.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-watch": "^5.0.1",
+    "jquery-stickit": "^0.2.62",
+    "lazyload": "^2.0.0-beta.2",
+    "picturefill": "^3.0.3",
+    "run-sequence": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-shell": "^0.6.5",
+    "gulp-webp": "^3.0.0"
+  }
+}
